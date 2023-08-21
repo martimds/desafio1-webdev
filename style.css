@@ -1,0 +1,25 @@
+body {
+  background-image: url('imagens/fundo.png');
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end; 
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin-left: 20px; 
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; 
+}
