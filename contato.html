@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>UNES - Home</title>
+    <title>UNES - Contato</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body style="background-image: url('imagens/fundo2.png');">
     <main>
       <div class="main-container">
         <header>
@@ -24,30 +24,31 @@
           </div>
         </header>
         <div class="content-container">
-          <div class="image-container">
-            <img src="imagens/capa.png" alt="Imagem de Capa" />
-          </div>
           <div class="text-container">
-            <h1>Sobre a universidade</h1>
+            <h1>Entre em contato</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-              eveniet maxime molestiae vitae deserunt veritatis nostrum autem?
-              Adipisci animi expedita reprehenderit dicta deleniti inventore
-              vero officia autem molestiae. Minus, illo!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             </p>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptas, saepe ipsa laudantium iusto cumque suscipit aliquid.
-              Distinctio officia a, rem voluptates similique, eius laborum
-              facere harum vitae rerum, eveniet quis!
-            </p>
+            <hr>
+            <form action="#">
+              <label for="email">Seu e-mail:</label><br>
+              <input type="email" id="email" name="email" required><br><br>
+          
+              <label for="assunto">Assunto:</label><br>
+              <input type="text" id="assunto" name="assunto" required><br><br>
+          
+              <label for="descricao">Descrição:</label><br>
+              <textarea id="descricao" name="descricao" rows="4" cols="50" required></textarea><br><br>
+          
+              <input type="submit" value="Enviar">
+          </form>
           </div>
         </div>
       </div>
     </main>
     <footer>
         <div class="footer">
-            <p><b>Todos os direitos reservados.</b></p>
+            <p><b>Todos os direitos reservados</b></p>
         </div>
     </footer>
   </body>
